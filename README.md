@@ -23,7 +23,6 @@ Then you need to enable the service pcscd service itself:
 
 ### 3. Windows Dependencies
 
-* **You'll need Visual Studio Build Tools
+* You'll need Visual Studio Build Tools
   
-```markdown
 [Download Microsoft C++ Build Tools here](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
