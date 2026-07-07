@@ -23,8 +23,6 @@ Then you need to enable the service pcscd service itself:
 
 ### 3. Windows Dependencies
 
-* **If you are installing pyscard on Windows, pip may need to compile it from source. To do this, you need a C++ compiler.
-
-* You'll need Visual Studio Build Tools
+* You'll need Visual Studio Build Tools and a C++ compiler.
   
 [Download Microsoft C++ Build Tools here](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
