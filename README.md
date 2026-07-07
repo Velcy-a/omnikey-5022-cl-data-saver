@@ -15,12 +15,15 @@ pip install pyscard
 * **You'll need pcscd & libpcsclite-dev installed.
 
 Example:
-sudo apt install pcscd libpcsclite-dev
+* sudo apt install pcscd libpcsclite-dev
 
-* Then you need to enable it:
+Then you need to enable the service pcscd service itself:
 
-sudo systemctl enable --now pcscd
+* sudo systemctl enable --now pcscd
 
 ### 3. Windows Dependencies
 
-[![MSVC Build Tools](https://img.shields.io/badge/Download-MSVC_Build_Tools-blue?logo=visualstudio)](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+* **You'll need Visual Studio Build Tools
+  
+```markdown
+[Download Microsoft C++ Build Tools here](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
