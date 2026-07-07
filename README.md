@@ -10,3 +10,17 @@ To run this script, you need **Python 3.x** and the following dependencies:
 
 You can install it via pip:
 pip install pyscard
+
+### 2. Linux Dependencies
+* **You'll need pcscd & libpcsclite-dev installed.
+
+Example:
+sudo apt install pcscd libpcsclite-dev
+
+* Then you need to enable it:
+
+sudo systemctl enable --now pcscd
+
+### 3. Windows Dependencies
+
+[![MSVC Build Tools](https://img.shields.io/badge/Download-MSVC_Build_Tools-blue?logo=visualstudio)](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
